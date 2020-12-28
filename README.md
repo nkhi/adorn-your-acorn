@@ -1,5 +1,5 @@
-# 🐿️🐿️🐿️ UofT Transcipt Beautifer
-Generate a beautiful version version of your UofT Unofficial Transcript
+# UofT Transcipt Beautifer
+Generate a beautiful version version of your Unofficial UofT Transcript.
 
 <div class="bookmarklet-button">
     <a>🐿️🐿️🐿️</a> (Drag this to your bookmark bar)
