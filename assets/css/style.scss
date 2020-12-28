@@ -4,19 +4,26 @@
 @import "{{ site.theme }}";
 
 .bookmarklet-button {
-  text-size: 1.25rem;
+  text-size: 1.15rem;
   display: flex;
-  padding: 15px;
+  padding: 25px 15px;
   justify-content: center;
   place-items: center;
-  color: red;
+  width: 300px;
+  background: #f7f7f7;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #63dca3;
+  
+  &:hover {
+    background: #63dca3;
+    color: white;
+  }
   
   a {
-    color: red;
-    font-style: bold;
-    
+    padding-right: 4px;
     &:hover{
-      text-size: 1.5rem;
+      font-size: 1.5rem;
       color: blue;
     }
   }  
