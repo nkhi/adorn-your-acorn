@@ -16,6 +16,6 @@ This widget generates an improved version of the transcript completely on the cl
 Inspired by [@arashout](https://github.com/arashout) and his project [ubc-courses](https://github.com/arashout/ubc-courses)
 
 
-## 🤔🤔 How does this work?
+## 🤔 How does this work?
 
 When you click the bookmarklet, it calls [`grades.php`](https://github.com/nkhi/adorn-your-acorn/blob/main/src/grades.php) which is accessible because this repo is hosted on [GitHub Pages](http://www.nikhi.ca/adorn-your-acorn). It scrapes your information from the underlying Acorn HTML, and calls to generate [`index.html`](https://github.com/nkhi/adorn-your-acorn/blob/main/src/index.html), the template webpage. The generated page contains a single injected React component [`pretty.js`](https://github.com/nkhi/adorn-your-acorn/blob/main/src/pretty.js), and everything styled by [`styles.css`](https://github.com/nkhi/adorn-your-acorn/blob/main/src/styles.css)/[`.js`](https://github.com/nkhi/adorn-your-acorn/blob/main/src/styles.js).
