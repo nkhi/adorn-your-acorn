@@ -13,14 +13,15 @@
   border-radius: 10px;
   margin-bottom: 20px;
   color: white;
-   
-  &:hover {
-    border: 2px solid black;
-  }
   
   a {
     font-size: 1.25rem;
     padding-right: 4px;
+    
+    &:hover{
+      font-size: 1.3rem;
+      transition: font-size 2s ease;
+    }
   }  
   
 }
