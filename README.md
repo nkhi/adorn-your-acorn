@@ -7,6 +7,6 @@ Generate a beautiful version version of your UofT Unofficial Transcript print-ou
 `Step 4` Click the link in your bookmarks bar</br>
 `Step 5` Save or print!</br>
 
-This widget generates an improved version of the transcript completely on the client-side using scraping and React for templating, which means I never see your data. Any comments, concerns, etc can be directed to hey@curecon.org. PRs welcome.
+This widget generates an improved version of the transcript completely on the client-side using scraping and React for templating, which means I never see your data. Any comments, concerns, etc can be directed to hey@curecon.org.
 
 Inspired by [@arashout](https://github.com/arashout) and his project [ubc-courses](https://github.com/arashout/ubc-courses)
