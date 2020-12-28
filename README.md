@@ -1,10 +1,9 @@
-<script src="/src/bookmarklet.js"></script>
+<script src="https://www.nikhi.ca/adorn-your-acorn/src/bookmarklet.js"></script>
 
 # UofT Transcipt Beautifer
 Generate a beautiful version version of your Unofficial UofT Transcript.  
  
 <div class="bookmarklet-button css-selector">
- <!-- <a href="javascript:(function(){alert(suh dude);})();">🐿️🐿️🐿️</a> (Drag them to your bookmark bar)  -->
     <a href="javascript:(helloWorld())();">🐿️🐿️🐿️</a> (Drag them to your bookmark bar)
 </div>
 
