@@ -2,7 +2,7 @@
 Generate a beautiful version version of your Unofficial UofT Transcript.  
  
 <div class="bookmarklet-button css-selector">
-    <a href="javascript:(function () {var script = document.createElement('script');script.src = 'https://nikhi.ca/adorn-your-acorn/src/bookmarklet.js';document.body.appendChild(script);})();">🐿️🐿️🐿️</a> (Drag them to your bookmark bar)
+    <a href="javascript:(function(){alert('hellooo')});">🐿️🐿️🐿️</a> (Drag them to your bookmark bar)
 </div>
 
 **Step 1:** Drag the squirrels above into your bookmarks bar  
