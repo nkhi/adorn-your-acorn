@@ -4,7 +4,6 @@
 @import "{{ site.theme }}";
 
 .bookmarklet-button {
-  text-size: 1.15rem;
   display: flex;
   padding: 25px 15px;
   justify-content: center;
@@ -22,9 +21,12 @@
   }
   
   a {
+    font-size: 1.25rem;
     padding-right: 4px;
+    transition: font-size 2s ease-in-out;
+    
     &:hover{
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       color: blue;
     }
   }  
