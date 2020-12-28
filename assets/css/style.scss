@@ -9,25 +9,18 @@
   justify-content: center;
   place-items: center;
   width: 300px;
-  background: #800000;
+  background: #1491ffd1;
   border-radius: 10px;
   margin-bottom: 20px;
-  border: 5px solid #640f242b;
   color: white;
   
   &:hover {
-    background: #f7f7f7;
-    border: 5px solid #800000;  
+    background: #1491ff;
   }
   
   a {
     font-size: 1.25rem;
     padding-right: 4px;
-    transition: font-size 2s ease-in-out;
-    
-    &:hover{
-      font-size: 1.3rem;
-      color: blue;
-    }
   }  
+  
 }
