@@ -1,7 +1,11 @@
 # 🐿️🐿️🐿️ UofT Transcipt Beautifer
 Generate a beautiful version version of your UofT Unofficial Transcript
 
-**Step 1:** Drag [this](https://google.com) into your bookmarks bar  
+<div class="bookmarklet-button">
+    <a>🐿️🐿️🐿️</a> (Drag this to your bookmark bar)
+</div>
+
+**Step 1:** Drag the link above into your bookmarks bar  
 **Step 2:** Open Acorn, log in, and navigate to the [Academic History](https://acorn.utoronto.ca/sws/#/history/academic) page  
 **Step 3:** Toggle *Complete Academic History* to load your complete transcript  
 **Step 4:** Click the 🐿️🐿️🐿️ link in your bookmarks bar  
