@@ -10,14 +10,15 @@
   justify-content: center;
   place-items: center;
   width: 300px;
-  background: #f7f7f7;
+  background: #800000;
   border-radius: 10px;
   margin-bottom: 20px;
-  border: 2px solid #63dca3;
+  border: 5px solid #640f242b;
+  color: white;
   
   &:hover {
-    background: #63dca3;
-    color: white;
+    background: #f7f7f7;
+    border: 5px solid #800000;  
   }
   
   a {
