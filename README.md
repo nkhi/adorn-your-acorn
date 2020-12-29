@@ -6,8 +6,8 @@ Generate a beautiful version version of your Unofficial UofT Transcript.
 </div>
 
 **Step 1:** Drag the squirrels above into your bookmarks bar  
-**Step 2:** Open Acorn, log in, and navigate to the [Academic History](https://acorn.utoronto.ca/sws/#/history/academic) page  
-**Step 3:** Toggle *Complete Academic History* to load your complete transcript  
+**Step 2:** Log into [Acorn](https://www.acorn.utoronto.ca/) and navigate to the [Academic History](https://acorn.utoronto.ca/sws/#/history/academic) page  
+**Step 3:** Toggle *Complete Academic History* to load your full transcript  
 **Step 4:** Click the squirrels!
 
 This widget generates an improved version of the transcript completely on the client-side using scraping and React for templating, which means I never see your data. I'm reachable by email at [hey@curecon.org](mailto:hey@curecon.org).
