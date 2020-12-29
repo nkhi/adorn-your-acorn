@@ -19,11 +19,11 @@ This will *eventually* be a demo gif.
 
 When you click the bookmarklet, it calls [`grades.php`](https://github.com/nkhi/adorn-your-acorn/blob/main/src/grades.php) which is accessible because this repo is hosted on [GitHub Pages](http://www.nikhi.ca/adorn-your-acorn). It scrapes your information from the underlying Acorn HTML, and calls to generate [`index.html`](https://github.com/nkhi/adorn-your-acorn/blob/main/src/index.html), the template webpage. The generated page contains a single injected React component [`pretty.js`](https://github.com/nkhi/adorn-your-acorn/blob/main/src/pretty.js), and everything styled by [`styles.css`](https://github.com/nkhi/adorn-your-acorn/blob/main/src/styles.css)/[`.js`](https://github.com/nkhi/adorn-your-acorn/blob/main/src/styles.js).  
 
-This widget uses completely client-side Javascript, **which means I never see your data**. 
+This widget uses completely client-side Javascript, <ins>which means I never see your data</ins>. 
 
 ## 🛸 Credits
-Created by [Nikhi Bhambra](https://www.nikhi.ca). I'm reachable by email at [hey@curecon.org](mailto:hey@curecon.org).  
+Created by [Nikhi Bhambra](https://www.nikhi.ca).  
+Last updated on [Dec 29th, 2020](https://github.com/nkhi/adorn-your-acorn/commits/main).  
+Please send any inquiries to [hey@curecon.org](mailto:hey@curecon.org).  
 Inspired by [@arashout](https://github.com/arashout) and his project [ubc-courses](https://github.com/arashout/ubc-courses).  
 Licensed under the MIT License. PRs welcome!  
-Last updated on [Dec 29th, 2020](https://github.com/nkhi/adorn-your-acorn/commits/main).  
-
