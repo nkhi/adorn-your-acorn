@@ -17,9 +17,7 @@ This will *eventually* be a demo gif.
 
 ## 🤔 How does this work?
 
-When you click the bookmarklet, it calls [`grades.php`](https://github.com/nkhi/adorn-your-acorn/blob/main/src/grades.php) which is accessible because this repo is hosted on [GitHub Pages](http://www.nikhi.ca/adorn-your-acorn). It scrapes your information from the underlying Acorn HTML, and calls to generate [`index.html`](https://github.com/nkhi/adorn-your-acorn/blob/main/src/index.html), the template webpage. The generated page contains a single injected React component [`pretty.js`](https://github.com/nkhi/adorn-your-acorn/blob/main/src/pretty.js), and everything styled by [`styles.css`](https://github.com/nkhi/adorn-your-acorn/blob/main/src/styles.css)/[`.js`](https://github.com/nkhi/adorn-your-acorn/blob/main/src/styles.js).  
-
-This widget uses completely client-side Javascript, <ins>which means I never see your data</ins>. 
+If you check the value of the bookmarklet, you will see a snippet in the following template `javascript:(function(){...})()`. Any code inside the curly braces will execute on top of the user's currently open webpage. This widget uses completely client-side Javascript, <ins>which means I never see your data</ins>. When you click on the squirrels, it calls the code found in [`bookmarklet.js`](https://github.com/nkhi/adorn-your-acorn/blob/main/src/bookmarklet.js), which arranges, styles, and aligns the content already presented on acorn to be printer/PDF ready. After, I use [`html2pdf`](https://ekoopmans.github.io/html2pdf.js/), an open-source library created by [@eKoopmans](https://github.com/eKoopmans/html2pdf.js) to convert the viewport into a multipage PDF file, which is saved automatically.
 
 ## 🛸 Credits
 Created by [Nikhi Bhambra](https://www.nikhi.ca).  
