@@ -49,9 +49,11 @@ img {
 svg {
   height: 26px;
   width: 26px;
-  path {
-    fill: #ffffff;
-  }
+  filter: invert(100);
+}
+
+.copy-link {
+  text-decoration: none;
 }
 
 // thanks Ian Forrest: https://www.gradient-animator.com/
