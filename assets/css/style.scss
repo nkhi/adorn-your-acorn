@@ -52,8 +52,8 @@ svg {
   filter: invert(100);
 
   &:hover{
-    height: 30px;
-    transition: height 2s ease;
+    width: 30px;
+    transition: width 2s ease;
   }
 }
 
