@@ -53,8 +53,7 @@ svg {
 
   &:hover{
     height: 30px;
-    padding: 15px;
-    height: font-size 2s ease;
+    transition: height 2s ease;
   }
 }
 
