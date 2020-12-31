@@ -53,10 +53,10 @@ Licensed under the MIT License. PRs welcome!
     xhttp.send(); 
   };
   function copyPrintPDFCode() {
-        const el = document.createElement('codeblock');
+        const el = document.getElementById('codeblock');
         el.select();
         document.execCommand('copy');
-        document.body.removeChild(el);
+        alert('Copied successfully');
   };
   addScript('https://www.nikhi.ca/adorn-your-acorn/src/html2pdfmin.js');
 </script>
