@@ -36,7 +36,7 @@ if (window.location.href == 'https://acorn.utoronto.ca/sws/#/history/academic') 
             mnth = today.getMonth();
             monthNames = ['January ', 'February ', 'March ', 'April ', 'May ', 'June ', 'July ', 'August ', 'September ', 'October ', 'November ', 'December '];
             date = monthNames[mnth]+today.getDate()+', '+today.getFullYear();
-            hdr.innerHTML = `<div id=frst><h1 class=&#39;page-title academics&#39;>Nikhil Bhambra</h1><h4>${cols[ii-1]}</h4></div><div id=scnd><h3>As of ${date}</h3><h4>This is not an official transcript</h4></div>`;
+            hdr.innerHTML = `<div id=frst><h1 class=&#39;page-title academics&#39;>${name}</h1><h4>${cols[ii-1]}</h4></div><div id=scnd><h3>As of ${date}</h3><h4>This is not an official transcript</h4></div>`;
             document.getElementById('frst').style.paddingLeft = '1rem';
             scnd = document.getElementById('scnd');
             scnd.style.textAlign = 'right';
