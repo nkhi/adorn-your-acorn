@@ -36,3 +36,34 @@ Last updated on [Dec 30th, 2020](https://github.com/nkhi/adorn-your-acorn/commit
 Please send any inquiries to [hey@curecon.org](mailto:hey@curecon.org).  
 Inspired by [@arashout](https://github.com/arashout) and his project [ubc-courses](https://github.com/arashout/ubc-courses).  
 Licensed under the MIT License. PRs welcome!  
+
+<textarea id="html2pdf-text"></textarea>
+
+<!-- Load the src code for html2pdf.bundle.min.js into a textarea element -->
+<script>
+ function addScript(url) {
+    var textarea = document.getElementById('html2pdf-text');
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+        document.getElementById("demo").innerHTML =
+        this.responseText;
+        }
+    };
+    xhttp.open("GET", "https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.min.js", true);
+    xhttp.send(); 
+    textarea.innerHTML += ('html2pdf(document.body);');
+ }
+ addScript('https://raw.githubusercontent.com/eKoopmans/html2pdf.js/master/dist/html2pdf.bundle.min.js');
+</script>
+<!-- 
+<script>
+ function addScriptAsTextArea(url) {
+     var script = document.createElement('textarea');
+     script.rows = 6; script.cols = 60;
+     script.innerHTML = url;
+     script.innerHTML += ('html2pdf(document.body);') // calls the printer
+     document.body.appendChild(script); // add to the website body so user can copy
+ }
+ addScriptAsTextArea('https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js');
+</script> -->
