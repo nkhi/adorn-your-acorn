@@ -46,10 +46,10 @@ img {
   max-height: 260px;
 }
 
-svg {
+#f12-icon {
   height: 26px;
   width: 26px;
-  filter: invert(100);
+  // filter: invert(100);
 
   &:hover{
     scale: 1.2;
@@ -61,6 +61,7 @@ svg {
   text-decoration: none;
   cursor: pointer;
 }
+
 
 // thanks Ian Forrest: https://www.gradient-animator.com/
  .css-selector {
