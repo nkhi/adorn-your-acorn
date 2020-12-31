@@ -69,8 +69,11 @@ textarea {
   // color: #4d4d4d;
   color: #fff;
   background: rgba(255, 255, 255, 0.1);
-  resize: vertical;
+  resize: none;
   overflow: hidden;
+  padding: 0px;
+  -webkit-padding-start: 8px;
+  -webkit-padding-end: 8px;
 }
 
 .tooltip-box {
