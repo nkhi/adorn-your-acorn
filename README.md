@@ -44,22 +44,23 @@ Last updated on [Dec 30th, 2020](https://github.com/nkhi/adorn-your-acorn/commit
 Inspired by [@arashout](https://github.com/arashout) and [ubc-courses](https://github.com/arashout/ubc-courses).  
 Licensed under the MIT License. PRs welcome!  
 
-<!-- Load the src code for html2pdf.bundle.min.js into a textarea element -->
+<!-- Load the src code for html2pdf.bundle.min.js into a clipboard -->
 <script>
- function copyPrintPDFCode(url) {
-    const el = document.createElement('textarea');
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            el.value = this.responseText;
-            document.body.appendChild(el);
-            el.select();
-            document.execCommand('copy');
-            document.body.removeChild(el);
+    function copyPrintPDFCode(url) {
+        const el = document.createElement('textarea');
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                el.value = this.responseText;
+            };
         };
+        xhttp.open("GET", 'https://www.nikhi.ca/adorn-your-acorn/src/html2pdfmin.js', true);
+        xhttp.send(); 
+        console.log(el.value);
+        document.body.appendChild(el);
+        el.select();
+        document.execCommand('copy');
+        document.body.removeChild(el);
     };
-    xhttp.open("GET", url, true);
-    xhttp.send(); 
- }
- copyPrintPDFCode('https://www.nikhi.ca/adorn-your-acorn/src/html2pdfmin.js');
 </script>
+
