@@ -35,7 +35,7 @@
 
 .box {
   display: flex;
-  place-items: center;
+  flex-flow: column;
 }
 
 section {
