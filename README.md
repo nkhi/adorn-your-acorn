@@ -49,7 +49,7 @@ Licensed under the MIT License. PRs welcome!
             textarea.innerHTML = this.responseText;
         };
     };
-    xhttp.open("GET", "url", true);
+    xhttp.open("GET", url, true);
     xhttp.send(); 
     textarea.innerHTML += ('html2pdf(document.body);');
  }
