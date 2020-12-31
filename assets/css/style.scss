@@ -47,8 +47,8 @@ img {
 }
 
 #f12-icon {
-  height: 26px;
-  width: 26px;
+  height: 45px;
+  width: 45px;
   // filter: invert(100);
 
   &:hover{
@@ -60,6 +60,7 @@ img {
 .copy-link {
   text-decoration: none;
   cursor: pointer;
+  padding: 11px 12px;
 }
 
 

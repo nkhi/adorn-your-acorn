@@ -8,7 +8,7 @@ Generate a beautiful version version of your Unofficial UofT Transcript.
     <a class="copy-link tooltip" data-tooltip="Click to copy: This converts your open tab into a PDF" onClick="copyPrintPDFCode();" >
         <div class="copy-button css-selector">
             <!-- <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="#000000" viewBox="0 0 256 256" style="filter: invert();"><rect width="256" height="256" fill="none"></rect><polygon points="168 87.993 168 167.993 216 167.993 216 39.993 88 39.993 88 87.993 168 87.993" opacity="0.2"></polygon><polyline points="168 167.993 216 167.993 216 39.993 88 39.993 88 87.993" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline><rect x="39.99902" y="87.99414" width="128" height="128" stroke-width="16" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" fill="none"></rect></svg> -->
-            <img id="f12-icon" src="src/img/f12.svg"></img>
+            <img id="f12-icon" src="src/img/f12.svg">
         </div>
     </a>
 </div>
@@ -25,7 +25,7 @@ Generate a beautiful version version of your Unofficial UofT Transcript.
 ## 🧙‍♂️ Before & After  
 
 This will *eventually* be a demo gif.  
-![volcano](https://66.media.tumblr.com/9f86687031b209884083604f2c6dab97/tumblr_px6b1hRRpx1wzvt9qo1_640.gif "some lads")
+<!-- ![volcano](https://66.media.tumblr.com/9f86687031b209884083604f2c6dab97/tumblr_px6b1hRRpx1wzvt9qo1_640.gif "some lads") -->
 
 ## 🤔 How does this work?
 
