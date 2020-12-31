@@ -71,7 +71,8 @@ textarea {
   background: rgba(255, 255, 255, 0.1);
   resize: none;
   overflow: hidden;
-  padding: 0px;
+  -webkit-padding-after: 8px;
+  -webkit-padding-before: 8px;
   -webkit-padding-start: 8px;
   -webkit-padding-end: 8px;
 }
