@@ -88,6 +88,15 @@ textarea {
   display: hidden;
 }
 
+span {
+  color: #1d1d1d;
+}
+
+.scriptbox {
+  display: flex;
+  flex-flow: row;
+}
+
 // thanks Ian Forrest: https://www.gradient-animator.com/
  .css-selector {
     background: linear-gradient(185deg, #1491ff, #1491ff, #141aff, #5714ff, #141aff, #1491ff, #1491ff);
