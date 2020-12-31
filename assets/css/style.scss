@@ -11,7 +11,7 @@
   width: 435px;
   background: #1491ffd1;
   border-radius: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: white;
   
   a {
@@ -69,6 +69,7 @@ textarea {
   border: 4px solid #1491ff;
   color: #4d4d4d;
   resize: none;
+  overflow: hidden;
 }
 
 .tooltip-box {
