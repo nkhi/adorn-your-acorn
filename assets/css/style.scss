@@ -33,7 +33,7 @@ code {
   border-radius: 5px;
 }
 
-.copy-button {
+#copy-button {
   @extend .bookmarklet-button;
   width: 64px;
   margin-left: 5px;
@@ -92,7 +92,7 @@ textarea {
   display: flex;
   place-items: center;
   justify-content: center;
-  display: hidden;
+  overflow-y: scroll;
 }
 
 span {
