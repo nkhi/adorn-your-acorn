@@ -62,7 +62,7 @@ Licensed under the MIT License. PRs welcome!
         const el = document.getElementById('codeblock');
         el.select();
         document.execCommand('copy');
-        alert('Copied successfully');
+        alert('Script Copied Successfully');
   };
   addScript('https://www.nikhi.ca/adorn-your-acorn/src/html2pdfmin.js');
 </script>
