@@ -12,7 +12,7 @@ Generate a beautiful version version of your Unofficial UofT Transcript.
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#000000" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><path d="M88,40H56a8,8,0,0,0-8,8V216a8,8,0,0,0,8,8H200a8,8,0,0,0,8-8V48a8,8,0,0,0-8-8H168V64H88Z" opacity="0.2"></path><rect x="88" y="24" width="80" height="40" stroke-width="16" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" fill="none"></rect><path d="M168,40h32a8,8,0,0,1,8,8V216a8,8,0,0,1-8,8H56a8,8,0,0,1-8-8V48a8,8,0,0,1,8-8H88" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path><line x1="96" y1="152" x2="160" y2="152" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><line x1="96" y1="120" x2="160" y2="120" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line></svg>
         </div>
         <div class="tooltip-box tooltip" data-tooltip="html2pdf.js v0.9.2. Copyright (c) 2020 Erik Koopmans. Released under the MIT License.">
-            <textarea rows=6 cols=47 id="codeblock"></textarea>
+            <textarea rows=4 cols=47 id="codeblock"></textarea>
         </div>
     </div>
 </div>
@@ -68,7 +68,6 @@ Licensed under the MIT License. PRs welcome!
   addScript('https://www.nikhi.ca/adorn-your-acorn/src/html2pdfmin.js');
 </script>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-JWGKWDSPPQ"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
