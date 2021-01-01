@@ -68,10 +68,10 @@ img {
   border-radius: 10px;
   max-width: 465px;
 
-  // &:hover{
-  //   scale: 1.5;
-  //   transition: scale 3s ease;
-  // }
+  &:hover{
+    scale: 1.5;
+    transition: scale 3s ease;
+  }
 }
 
 #f12-icon {
