@@ -102,6 +102,10 @@ span {
   flex-flow: row;
 }
 
+svg {
+  filter: invert(100);
+}
+
 // thanks Ian Forrest: https://www.gradient-animator.com/
  .css-selector {
     background: linear-gradient(185deg, #1491ff, #1491ff, #141aff, #5714ff, #141aff, #1491ff, #1491ff);
