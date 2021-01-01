@@ -1,4 +1,5 @@
-<h1 id='hed'>UofT Transcript Beautifier <span>v0.1</span></h1>
+<!-- <h1 id='hed'>UofT Transcript Beautifier <span>v0.1</span></h1> -->
+# UofT Transcript Beautifier <span>v0.1</span>
 Generate a beautiful version version of your Unofficial UofT Transcript.  
 <i>Please use Firefox or Chrome.</i>
  
