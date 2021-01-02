@@ -4,7 +4,7 @@ Please use Chrome or Firefox on a desktop.
 
 ## 🚀 Getting Started
 
-<p id='pre-box-p'>Step 1: Click the Squirrels to get <a href='https://github.com/nkhi/adorn-your-acorn/blob/main/src/bookmarklet.js'>the script</a>.</p>
+<p id='pre-box-p'><strong>Step 1:</strong> Click the Squirrels to get <a href='https://github.com/nkhi/adorn-your-acorn/blob/main/src/bookmarklet.js'>the script</a>.</p>
 
 <div class="bookmarklet-button css-selector">
     <a onClick="copyPrintPDFCode();">🐿️🐿️🐿️</a>
