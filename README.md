@@ -18,19 +18,18 @@ Please use Chrome or Firefox on a desktop.
     </div>
 </div>
 
-**Step 1:** Drag the Squirrels into your Bookmarks Bar (`Cmd+Shift+B`).  
+**Step 1:** Drag the Squirrels into your Bookmarks Bar (`Ctrl/Cmd` + `Shift` + `B`).  
 **Step 2:** Click the Copy icon to get the [html2pdf](https://ekoopmans.github.io/html2pdf.js/) script.  
 **Step 2:** Log into [Acorn](https://www.acorn.utoronto.ca/) and navigate to the [Academic History](https://acorn.utoronto.ca/sws/#/history/academic) page.  
 **Step 3:** Toggle *Complete Academic History* to load your full transcript.  
 **Step 4:** Click the squirrels!  
 **Step 5:** Hit `F12` and navigate to the Console tab at the top.  
-**Step 6:** ‎‏‏‎Paste (`Cmd+V`) the code you copied and hit `Enter`.  
+**Step 6:** ‎‏‏‎Paste (`Ctrl/Cmd` + `V`) the code you copied and hit `Enter`.  
 **Step 7:** Be patient and check your Downloads!  
 
 ## 🧙‍♂️ Before & After  
 
-Beautified version vs. Acorn output
-![comparisson](/adorn-your-acorn/assets/comp.png)
+<img src="/adorn-your-acorn/assets/comp.png" class="tooltip" data-tooltip='Acorn version vs. Beautified version' alt="comparisson" title="Beautified version vs. Acorn output">
 
 ## 🤔 How does this work?
 
