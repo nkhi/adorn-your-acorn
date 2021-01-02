@@ -1,5 +1,4 @@
-<!-- <h1 id='hed'>UofT Transcript Beautifier <span>v0.1</span></h1> -->
-# UofT Transcript Beautifier <span>v0.1</span>
+# UofT Transcript Beautifier <span>v1.0</span>
 Generate a better version version of your Unofficial UofT Transcript.  
 Please use Chrome or Firefox on a desktop.
 
@@ -30,8 +29,8 @@ Please use Chrome or Firefox on a desktop.
 
 ## 🧙‍♂️ Before & After  
 
-This will *eventually* be a demo gif.  
-![volcano](https://66.media.tumblr.com/9f86687031b209884083604f2c6dab97/tumblr_px6b1hRRpx1wzvt9qo1_640.gif "some lads")
+Adorn your Acorn output versus *Print Academic History* output
+![comparisson](https://nikhi.ca/adorn-your-acorn/assets/comp.png "Beautified version vs. Acorn output")
 
 ## 🤔 How does this work?
 
@@ -68,12 +67,4 @@ Licensed under the MIT License. PRs welcome!
         alert('Script Copied Successfully');
   };
   addScript('https://www.nikhi.ca/adorn-your-acorn/src/html2pdfmin.js');
-</script>
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JWGKWDSPPQ"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-JWGKWDSPPQ');
 </script>

@@ -9,7 +9,6 @@
   justify-content: center;
   place-items: center;
   width: 428px;
-  // background: #1491ffd1;
   border-radius: 10px;
   margin-bottom: 10px;
   color: white;
@@ -24,20 +23,6 @@
     }
   }    
 }
-
-// h1#hed{
-//   margin-top: 0;
-// 	line-height: 2.4;
-// 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 10'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift 3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='rgba(0, 0, 0, 0.6)' stroke-width='2' class='squiggle' d='M0,4 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
-// 	background-position: 0 100%;
-// 	background-size: auto 15px;
-//   background-repeat: repeat-x;
-//   width: 79%;
-
-//   @media screen and (max-width:934px) {
-//     width: 48%;
-//   }
-// }
 
 code {
   background: #f0f0f0;
@@ -74,17 +59,6 @@ img {
   }
 }
 
-#f12-icon {
-  height: 42px;
-  width: 42px;
-  filter: invert(100);
-
-  &:hover{
-    scale: 1.2;
-    transition: scale 1.5s ease;
-  }
-}
-
 .copy-link {
   text-decoration: none;
   cursor: pointer;
@@ -96,10 +70,6 @@ textarea {
   color: #4d4d4d;
   overflow-y: scroll;
   resize: none;
-  // -webkit-padding-after: 8px;
-  // -webkit-padding-before: 8px;
-  // -webkit-padding-start: 8px;
-  // -webkit-padding-end: 8px;
 }
 
 .tooltip-box {
