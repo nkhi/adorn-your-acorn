@@ -30,7 +30,7 @@ Please use Chrome or Firefox on a desktop.
 ## 🧙‍♂️ Before & After  
 
 Adorn your Acorn output versus *Print Academic History* output
-![comparisson](https://nikhi.ca/adorn-your-acorn/assets/comp.png "Beautified version vs. Acorn output")
+![comparisson](https://raw.githubusercontent.com/nkhi/adorn-your-acorn/main/assets/comp.png "Beautified version vs. Acorn output")
 
 ## 🤔 How does this work?
 
