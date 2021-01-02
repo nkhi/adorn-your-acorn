@@ -18,18 +18,20 @@ function copyPrintPDFCode() {
     const el = document.getElementById('codeblock');
     el.select();
     document.execCommand('copy');
-    alert('Script Copied Successfully');
+    alert('Script copied successfully!');
 };
 
 // Click to hide
 function hide(){
     q=document.getElementByTagName('textarea')[0];
     l=document.getElementById('copy-button');
+    e=document.getElementById('eye');
     if (l.title == "you're looking at the script you just copied"){
         q.style.visibility='hidden';
         l.title= "i pretend i simply do not see it"
-        l.innerHTML="<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' fill='#000000' viewBox='0 0 256 256'><rect width='256' height='256' fill='none'></rect><line x1='201.14971' y1='127.30467' x2='223.95961' y2='166.81257' fill='none' stroke='#000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'></line><line x1='154.18201' y1='149.26298' x2='161.29573' y2='189.60689' fill='none' stroke='#000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'></line><line x1='101.72972' y1='149.24366' x2='94.61483' y2='189.59423' fill='none' stroke='#000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'></line><line x1='54.80859' y1='127.27241' x2='31.88882' y2='166.97062' fill='none' stroke='#000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'></line><path d='M31.99943,104.87509C48.81193,125.68556,79.63353,152,128,152c48.36629,0,79.18784-26.31424,96.00039-47.12468' fill='none' stroke='#000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'></path></svg>";
+        e.innerHTML="<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' fill='#000000' viewBox='0 0 256 256'><rect width='256' height='256' fill='none'></rect><line x1='201.14971' y1='127.30467' x2='223.95961' y2='166.81257' fill='none' stroke='#000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'></line><line x1='154.18201' y1='149.26298' x2='161.29573' y2='189.60689' fill='none' stroke='#000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'></line><line x1='101.72972' y1='149.24366' x2='94.61483' y2='189.59423' fill='none' stroke='#000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'></line><line x1='54.80859' y1='127.27241' x2='31.88882' y2='166.97062' fill='none' stroke='#000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'></line><path d='M31.99943,104.87509C48.81193,125.68556,79.63353,152,128,152c48.36629,0,79.18784-26.31424,96.00039-47.12468' fill='none' stroke='#000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'></path></svg>";
     } else { 
         q.visibility='visible';
+        l.title="you're looking at the script you just copied";
     }
 };
