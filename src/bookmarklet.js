@@ -3,6 +3,8 @@
 // Written by github.com/nkhi/
 // Published: Jan 1st, 2021
 
+// Restyles Academic History page on Acorn
+
 if (window.location.href == 'https://acorn.utoronto.ca/sws/#/history/academic') {
     v = document.getElementsByClassName('hidden-print');
     if (v.length > 0) {
@@ -127,3 +129,8 @@ if (window.location.href == 'https://acorn.utoronto.ca/sws/#/history/academic') 
 } else {
     alert('This bookmarklet only works on Acorn! Please log into Acorn, navigate to Academic History, and try again.');
 }
+
+// inject html2pdf v.0.9.2
+// html2pdf(document.body, { filename:'UofT Transcript.pdf', pagebreak: {avoid: ['.sessionHeader.pre-elem', 
+//                           '.emph.gpa-listing.pre-elem', '.emph.blok.credit-earned-section', '.courses.blok.pre-elem', 
+//                           '.coursesHeader.pre-elem']}});
