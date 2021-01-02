@@ -29,8 +29,13 @@ Please use Chrome or Firefox on a desktop.
 
 ## 🧙‍♂️ Before & After  
 
+<<<<<<< HEAD
 Beautified version vs. Acorn output
 ![comparisson](/adorn-your-acorn/assets/comp.png)
+=======
+Adorn your Acorn output versus *Print Academic History* output
+![comparisson](https://raw.githubusercontent.com/nkhi/adorn-your-acorn/main/assets/comp.png "Beautified version vs. Acorn output")
+>>>>>>> 2a2fb30fa6af986827790c960bc9f8c93d9983d5
 
 ## 🤔 How does this work?
 
