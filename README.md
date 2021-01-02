@@ -21,7 +21,7 @@ Please use Chrome or Firefox on a desktop.
 
 ## 🤔 How does this work?
 
-This script combines two parts, a bookmarklet which generates a better transcript output by restyling the page's elements (found in [`bookmarklet.js`](https://github.com/nkhi/adorn-your-acorn/blob/main/src/bookmarklet.js)), and a chunk which supplies your browser with the source code for [html2pdf](https://ekoopmans.github.io/html2pdf.js/) by [eKoopmans](https://github.com/eKoopmans/html2pdf.js), which is a great open-source library for converting your open browser tab into a PDF. Every part of this tool uses client-side Javascript execution, <ins>which means I never see your data</ins>.
+This script combines two parts, a bookmarklet<sup><a href='https://github.com/nkhi/adorn-your-acorn/blob/main/src/bookmarklet.js'>1</a></sup> which generates a better transcript output by restyling the page's elements, and a chunk which supplies your browser with the source code for html2pdf.js<sup><a href='https://ekoopmans.github.io/html2pdf.js/'>2</a></sup>, which is a great open-source library for converting your open browser tab into a PDF. Every part of this tool uses client-side Javascript execution, <ins>which means I never see your data</ins>.
 
 <div id='scriptbox'>
     <div class="css-selector tooltip-bottom" id="copy-button" data-tooltip="you're looking at the script you just copied">
