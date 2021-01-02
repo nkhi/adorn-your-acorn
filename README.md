@@ -4,11 +4,12 @@ Please use Chrome or Firefox on a desktop.
 
 ## 🚀 Getting Started
 
+<p id='pre-box-p'>Step 1: Click the Squirrels to get <a href='https://github.com/nkhi/adorn-your-acorn/blob/main/src/bookmarklet.js'>the script</a>.</p>
+
 <div class="bookmarklet-button css-selector">
     <a onClick="copyPrintPDFCode();">🐿️🐿️🐿️</a> (Click them to copy the script)
 </div>
 
-**Step 1:** Click the Squirrels to get [the script](https://github.com/nkhi/adorn-your-acorn/blob/main/src/bookmarklet.js).  
 **Step 2:** Log into [Acorn](https://www.acorn.utoronto.ca/) and navigate to the [Academic History](https://acorn.utoronto.ca/sws/#/history/academic) page.  
 **Step 3:** Toggle *Complete Academic History* to load your full transcript.  
 **Step 4:** Hit `F12` and navigate to the Console tab at the top.  
@@ -21,7 +22,7 @@ Please use Chrome or Firefox on a desktop.
 
 ## 🤔 How does this work?
 
-This script combines two parts, a bookmarklet<sup><a href='https://github.com/nkhi/adorn-your-acorn/blob/main/src/bookmarklet.js'>1</a></sup> which generates a better transcript output by restyling the page's elements, and a chunk which supplies your browser with the source code for html2pdf.js<sup><a href='https://ekoopmans.github.io/html2pdf.js/'>2</a></sup>, which is a great open-source library for converting your open browser tab into a PDF. Every part of this tool uses client-side Javascript execution, <ins>which means I never see your data</ins>.
+This script combines two parts, a bookmarklet<sup><a href='https://github.com/nkhi/adorn-your-acorn/blob/main/src/bookmarklet.js'>1</a></sup> which generates a better transcript output by restyling the page's elements, and a chunk which supplies your browser with the source code for html2pdf.js<sup><a href='https://ekoopmans.github.io/html2pdf.js/'>2</a></sup>, which is a great open-source library for converting your open browser tab into a PDF. Every part of this tool uses client-side Javascript execution, <ins>which means I never see your data</ins>. Check it out below.
 
 <div id='scriptbox'>
     <div class="css-selector tooltip-bottom" id="copy-button" data-tooltip="you're looking at the script you just copied">
@@ -30,7 +31,7 @@ This script combines two parts, a bookmarklet<sup><a href='https://github.com/nk
         </div>
     </div>
     <div class="tooltip-box tooltip-bottom" data-tooltip="adornyouracorn v1.0 + html2pdf.js v0.9.2 [Copyright (c) 2020 Erik Koopmans]">
-        <textarea rows=4 cols=54 id="codeblock"></textarea>
+        <textarea rows=5 cols=54 id="codeblock"></textarea>
     </div>
 </div>
 
@@ -39,7 +40,7 @@ Questions or concerns? [hey@curecon.org](mailto:hey@curecon.org).
 
 ## 🛸 Credits
 Created by [Nikhi Bhambra](https://www.nikhi.ca).   
-Last updated on [Jan 1st, 2021](https://github.com/nkhi/adorn-your-acorn/commits/main).   
+Last updated on [Jan 2nd, 2021](https://github.com/nkhi/adorn-your-acorn/commits/main).   
 Inspired by [@arashout](https://github.com/arashout) and [ubc-courses](https://github.com/arashout/ubc-courses).   
 Licensed under the MIT License. PRs welcome!  
 
