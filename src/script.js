@@ -2,15 +2,15 @@
 // because you cant load external resources on Acorn due to the Content Security Policy.
 
 function addScript(url) {
-var textarea = document.getElementById('codeblock');
-var xhttp = new XMLHttpRequest();
-xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-        textarea.innerHTML = this.responseText;
+    var textarea = document.getElementById('codeblock');
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            textarea.innerHTML = this.responseText;
+        };
     };
-};
-xhttp.open("GET", url, true);
-xhttp.send(); 
+    xhttp.open("GET", url, true);
+    xhttp.send(); 
 };
 
 // Enables copy to clipboard once the textbox request had finished
