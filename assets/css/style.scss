@@ -10,7 +10,7 @@
   place-items: center;
   width: 435px;
   border-radius: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   color: white;
   box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
   
@@ -83,7 +83,6 @@ textarea {
   border-radius: 10px;
   display: flex;
   place-items: center;
-  margin-bottom: 10px;
 }
 
 span {
@@ -96,6 +95,7 @@ span {
   display: flex;
   flex-flow: row;
   margin-bottom: 8px;
+  place-items: center;
 }
 
 svg {
