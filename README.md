@@ -21,19 +21,7 @@ Please use Chrome or Firefox on a desktop.
 
 ## 🤔 How does this work?
 
-This tool is split into two parts, a bookmarklet which generates the better transcript print-out, and a chunk of Javascript code which converts your open browser tab into a  PDF. Every part of this tool uses client-side Javascript execution, <ins>which means I never see your data</ins>.
-
-1. When you click on the squirrels, it executes a chunk of code from [`bookmarklet.js`](https://github.com/nkhi/adorn-your-acorn/blob/main/src/bookmarklet.js) on top of your open tab, which arranges and styles the data from Acorn to be printer ready.
-2. When you press F12 and run the copied code chunk, you are supplying the browser with the source code for [html2pdf](https://ekoopmans.github.io/html2pdf.js/) by [eKoopmans](https://github.com/eKoopmans/html2pdf.js), which is a great open-source library for converting your viewport into a PDF.
-
-Rewrite this
-
-## 🛸 Credits
-Created by [Nikhi Bhambra](https://www.nikhi.ca).   
-Last updated on [Jan 1st, 2021](https://github.com/nkhi/adorn-your-acorn/commits/main).   
-Inspired by [@arashout](https://github.com/arashout) and [ubc-courses](https://github.com/arashout/ubc-courses).   
-Questions or concerns? [hey@curecon.org](mailto:hey@curecon.org).   
-Licensed under the MIT License. PRs welcome!  
+This script combines two parts, a bookmarklet which generates a better transcript output by restyling the page's elements (found in [`bookmarklet.js`](https://github.com/nkhi/adorn-your-acorn/blob/main/src/bookmarklet.js)), and a chunk which supplies your browser with the source code for [html2pdf](https://ekoopmans.github.io/html2pdf.js/) by [eKoopmans](https://github.com/eKoopmans/html2pdf.js), which is a great open-source library for converting your open browser tab into a PDF. Every part of this tool uses client-side Javascript execution, <ins>which means I never see your data</ins>.
 
 <div id='scriptbox'>
     <div class="css-selector tooltip-bottom" id="copy-button" data-tooltip="you're looking at the script you just copied">
@@ -45,6 +33,15 @@ Licensed under the MIT License. PRs welcome!
         <textarea rows=4 cols=54 id="codeblock"></textarea>
     </div>
 </div>
+
+
+Questions or concerns? [hey@curecon.org](mailto:hey@curecon.org).   
+
+## 🛸 Credits
+Created by [Nikhi Bhambra](https://www.nikhi.ca).   
+Last updated on [Jan 1st, 2021](https://github.com/nkhi/adorn-your-acorn/commits/main).   
+Inspired by [@arashout](https://github.com/arashout) and [ubc-courses](https://github.com/arashout/ubc-courses).   
+Licensed under the MIT License. PRs welcome!  
 
 <!-- Define site scripts from src/script.js-->
 <script> 
