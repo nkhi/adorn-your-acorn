@@ -1,4 +1,4 @@
-# UofT Transcript Beautifier <span>v1.0</span>
+# UofT Transcript Beautifier <span>v0.1</span>
 Generate a better version version of your Unofficial UofT Transcript.  
 Please use Chrome or Firefox on a desktop.
 
